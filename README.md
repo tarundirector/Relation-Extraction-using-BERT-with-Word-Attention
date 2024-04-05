@@ -9,10 +9,6 @@ Relation extraction involves identifying the most relevant word that explains th
 
 In natural language processing (NLP), BERT (Bidirectional Encoder Representations from Transformers) has emerged as a pivotal tool, specifically in its variant known as BERT-base-uncased plays a crucial role. BERT represents a significant advancement in language understanding, leveraging the Transformer architecture to enable bidirectional processing of textual data. The “base” version of BERT refers to a moderate-sized model, making it computationally feasible for various NLP tasks. The “uncased” indicates that during training, text is converted to lowercase, facilitating case-insensitive operations. BERT-base-uncased comprises 12 standard transformers, totalling approximately 110 million parameters. In our research, we utilize the pre-trained BERT model proposed by Devlin et al. (2018) to address our specific task.
 
-BiLSTM, on the other hand, represents a distinct variant of recurrent neural networks (RNNs). It is designed to tackle the challenge of capturing contextual information from both past and future states within sequential data. This network architecture incorporates bidirectional processing, allowing inputs to be processed in forward and backward direction. By leveraging the memory cells of LSTM units, BiLSTM networks are highly effective at identifying complex patterns and contextual details found in textual data.
-
-
-
 # 2. Related Work
 
 Several approaches have been explored for relation classification, ranging from kernel methods and traditional machine learning algorithms to recent deep learning models. (Zeng et al., 2014) this paper introduces a convolutional neural network (CNN) approach for relation classification, demonstrating its effectiveness on benchmark datasets. (Ma et al., 2016) this paper introduces an approach based on Long Short-Term Memory (LSTM) networks for relation classification, focusing on shortest dependency paths. (Nguyen et al, 2016) extract relations for SemEval-2010 Task 8, this work integrates distributed semantics with feature engineering methods.
